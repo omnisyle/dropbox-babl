@@ -11,7 +11,7 @@ Then you need to get a token from Dropbox to upload file to your own Dropbox acc
 When you have the token for your account, here's how to use the babl module
 
 ```
-babl omnisyle/dropbox -e TOKEN="your_token" -e FILE_PATH="path_to_file_to_upload" -e DEST_PATH="destination_path_on_your_dropbox" -e FILE_NAME="optional_rename"
+cat ~/somefile.jpg | babl omnisyle/dropbox -e TOKEN="your_token" -e FILE="/path/to/file.jpg"
 
 ### return shared link
 ### => https://........
